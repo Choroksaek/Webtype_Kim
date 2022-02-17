@@ -1,0 +1,11 @@
+h1{
+    color:blue
+}
+body {
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #9cebe0;
+}
