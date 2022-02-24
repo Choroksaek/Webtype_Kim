@@ -1,11 +1,30 @@
 h1{
-    color:blue
+    text-align: left;
+    display: flex;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 0.03em 0.03em rgba(0,0,0,0.1);
+    background:#e2e3e7;
+    color: #e2e3e7;
+    font-size: 4em;
+    margin-top: 10vh;
+    max-width:50%;
+    border:#e2e3e7 solid;
+    box-shadow: 0.03em 0.03em rgba(0,0,0,0.1);
+    border-radius: 4em;
+
 }
 body {
-    display: absolute;
-    align-items: center;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: #9cebe0;
+    background: #e2e3e7;
+}
+
+a {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    padding: 100%;
+
 }
