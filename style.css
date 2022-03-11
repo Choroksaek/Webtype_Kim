@@ -1,7 +1,7 @@
 h1{
     text-align: left;
     display: flex;
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 800;
     font-style: normal;
     text-shadow: 0.03em 0.03em rgba(0,0,0,0.1);
@@ -18,9 +18,18 @@ body {
 }
 
 a {
-    font-family: proxima-nova, sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 500;
     font-style: italic;
     line-height: 150%;
 
+}
+
+@font-face {
+    font-family: "fonttry";
+    src: url("fonttry.woff2") format("woff2");
+  }
+
+  .health {
+    font-family: "fonttry";
 }
