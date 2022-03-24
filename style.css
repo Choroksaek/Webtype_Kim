@@ -26,10 +26,11 @@ a {
 }
 
 @font-face {
-    font-family: "fonttry";
-    src: url("fonttry.woff2") format("woff2");
+    font-family: "NewFont-Regular";
+    src: url("NewFont-Regular.woff2") format("woff2");
   }
 
   .health {
-    font-family: "fonttry";
+    font-family: "NewFont-Regular";
+    font-size: 200px;
 }
