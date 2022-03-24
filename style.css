@@ -1,16 +1,39 @@
-h1{
+.top {
+    display:grid;
+    grid-template-columns: 1fr, 1fr;
+    margin-top: 10vh;
+}
+
+.header{
+    grid-column: 1;
     text-align: left;
     display: flex;
+}
+
+h1 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 800;
     font-style: normal;
-    text-shadow: 0.03em 0.03em rgba(0,0,0,0.1);
-    background:#e2e3e7;
-    color: #e2e3e7;
     font-size: 4em;
-    margin-top: 10vh;
-
+    text-shadow: 0.03em 0.03em rgba(0,0,0,0.1);
+    color: #e2e3e7;
 }
+
+.button {
+    grid-column: 2;
+    align-items: center;
+}
+
+.darkmode {
+    background: #282828;
+    color: #e2e3e7;
+}
+
+.darkmode h1 {
+    color: #282828;
+    text-shadow: -0.03em -0.03em rgba(255, 255, 255, 0.1);
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -31,6 +54,9 @@ a {
   }
 
   .health {
+    display: block;
     font-family: "NewFont-Regular";
-    font-size: 200px;
+    font-size: 100px;
+    max-width: 20%;
 }
+
