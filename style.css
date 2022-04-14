@@ -49,14 +49,14 @@ a {
 }
 
 @font-face {
-    font-family: "NewFont-Regular";
-    src: url("NewFont-Regular.woff2") format("woff2");
+    font-family: 'Downpour';
+    src: url('fonts/RaindropsVF.woff2') format("woff2-variations");
   }
 
   .health {
-    display: block;
-    font-family: "NewFont-Regular";
-    font-size: 100px;
+    font-family: 'Downpour';
+    font-variation-settings: 'wght' ;
+    font-size: 75px;
     max-width: 20%;
 }
 
