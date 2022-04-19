@@ -1,12 +1,13 @@
 html {
   height: 100%;
+  cursor: url('../Raining-Icon.gif'), auto;
 }
 
 body {
   height: 100%;
   margin: 0;
   overflow: scroll;
-  background: linear-gradient(to bottom, #202020, #111119);
+  background: radial-gradient(at 60% top, #e5e5b9, #f2f3c7, #fff);
 }
 
 .rain {
