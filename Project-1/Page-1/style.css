@@ -172,6 +172,79 @@ body {
     margin-bottom: 7vh;
 }
 
+/*
+
+.monospace{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 7vh;  
+}
+
+.M {
+    display: inline;
+    line-height: 1.5;
+    background-color: antiquewhite;
+}
+.o {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(215, 250, 224);
+}
+.n {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(252, 231, 234);
+}
+.o2 {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(241, 218, 250);
+}
+.s {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+.p {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(215, 250, 224);
+}
+.a {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(252, 231, 234);
+}
+.c {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(241, 218, 250);
+}
+.e {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+.d {
+    display: inline;
+    margin: -9px;
+    padding: 8px;
+    background-color: rgb(215, 250, 224);
+}
+
+*/
 
 /* from here is type settings */
 

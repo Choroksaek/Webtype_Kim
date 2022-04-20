@@ -1,6 +1,7 @@
 html {
   height: 100%;
-  cursor: url('../Raining-Icon.gif'), auto;
+  cursor: url('../rainicon.gif'), auto;
+  animation: cursor 2.4s linear infinite;
 }
 
 body {
@@ -123,4 +124,82 @@ body.single-toggle .drop {
 
 body.single-toggle .drop:nth-child(10) {
   display: block;
+}
+
+@keyframes cursor{
+  0% { 
+    cursor: url(../smaller/Raining-Icon_0023_1.png), auto;
+  }
+  4.16% { 
+    cursor: url(../smaller/Raining-Icon_0022_2.png), auto;
+  }
+  8.32% { 
+    cursor: url(../smaller/Raining-Icon_0021_3.png), auto;
+  }
+  12.48% { 
+    cursor: url(../smaller/Raining-Icon_0020_4.png), auto;
+  }
+  16.64% { 
+    cursor: url(../smaller/Raining-Icon_0019_5.png), auto;
+  }
+  20.8% { 
+    cursor: url(../smaller/Raining-Icon_0018_6.png), auto;
+  }
+  24.96% { 
+    cursor: url(../smaller/Raining-Icon_0017_7.png), auto;
+  }
+  29.12% { 
+    cursor: url(../smaller/Raining-Icon_0016_8.png), auto;
+  }
+  33.28% { 
+    cursor: url(../smaller/Raining-Icon_0015_9.png), auto;
+  }
+  37.44% { 
+    cursor: url(../smaller/Raining-Icon_0014_10.png), auto;
+  }
+  41.6% { 
+    cursor: url(../smaller/Raining-Icon_0013_11.png), auto;
+  }
+  45.76% { 
+    cursor: url(../smaller/Raining-Icon_0012_12.png), auto;
+  }
+  49.92% { 
+    cursor: url(../smaller/Raining-Icon_0011_13.png), auto;
+  }
+  54.08% { 
+    cursor: url(../smaller/Raining-Icon_0010_14.png), auto;
+  }
+  58.24% { 
+    cursor: url(../smaller/Raining-Icon_0009_15.png), auto;
+  }
+  62.4% { 
+    cursor: url(../smaller/Raining-Icon_0008_16.png), auto;
+  }
+  66.56% { 
+    cursor: url(../smaller/Raining-Icon_0007_17.png), auto;
+  }
+  70.72% { 
+    cursor: url(../smaller/Raining-Icon_0006_18.png), auto;
+  }
+  74.88% { 
+    cursor: url(../smaller/Raining-Icon_0005_19.png), auto;
+  }
+  79.04% { 
+    cursor: url(../smaller/Raining-Icon_0004_20.png), auto;
+  }
+  83.2% { 
+    cursor: url(../smaller/Raining-Icon_0003_21.png), auto;
+  }
+  87.36% { 
+    cursor: url(../smaller/Raining-Icon_0002_22.png), auto;
+  }
+  91.56% { 
+    cursor: url(../smaller/Raining-Icon_0001_23.png), auto;
+  }
+  95.68% { 
+    cursor: url(../smaller/Raining-Icon_0000_24.png), auto;
+  }
+  100% {
+    cursor: url(../smaller/Raining-Icon_0023_1.png), auto;
+  }
 }

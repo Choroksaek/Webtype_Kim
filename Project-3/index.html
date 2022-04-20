@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <head>
     <title>downpour</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rain.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bpo3btx.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
 </head>
 
 <body class="back-row-toggle splat-toggle">
@@ -17,12 +23,12 @@
     </div>
 
     <div class="first">
-        <div class="txtone">Downpour is a variable typeface inspired by rain.</div>
+        <div class="txtone">THE FONT</div>
+        <div class="txttwo">Have you ever had an experience of just watching the rain pour? Downpour is an experimental-variable font inspired by the heavy rainfall and how it draws certain shapes. The font is a display font that focuses its visual to be less visible on purpose. It is intended to be used by everyone who likes to watch the rain pour and loves its visuals. On systems that support variable fonts, you can select a specific range for how heavy you want the rainfall. The font borrows visual cues from Geomanist Black.</div>
         <div class="A">Aa</div>
     </div>
 
     <div class="second">
-        <div class="quote">“</div>
         <div class="quote">R</div>
         <div class="quote">a</div>
         <div class="quote">i</div>
@@ -77,21 +83,44 @@
         <div class="quote">o</div>
         <div class="quote">k</div>
         <div class="quote">.</div>
-        <div class="quote">”</div>
        <!--“Rainy days should be spent at home with a cup of tea and a good book.”--> 
     </div>
 
+
     <div class="third">
-        <div class="wrapper">
-        font that can 
-        <div class="blend">blend</div>
-        to the rain 
+        <div class="wght2">
+            A font that can blend into the rain.
+        </div>
+        <div class="wght100">
+            A font that can blend into the rain.
+        </div>
+        <div class="wght2cap">
+            heaviness 2
+        </div>
+        <div class="wght100cap">
+            heaviness 100
         </div>
     </div>
+
+    <div class="secbreak">
+        Try the font yourself. You can change the weight by moving the slider.
+    </div>
+
+    <div class="fourth">
+        <div id="font" contenteditable>The quick brown fox jumps over the lazy dog.</div>
+    </div>
+    
+    <div class="field">
+        <label for="volume">width</label>
+        <input type="range" id="wght" name="wght"
+             min="2" max="100" value="2">
+    </div>
+
 
 </main>
 
 <script src="js/lottie.min.js"></script>
+<script src="js/script.js"></script>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src="js/custom.js"></script>
 <script src="js/rain.js"></script>
