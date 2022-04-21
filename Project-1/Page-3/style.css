@@ -224,7 +224,108 @@ body {
 .paragraph3 {
     grid-column: 1;
     margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.header2 {
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.paragraph4 {
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.paragraph4-2 {
+    grid-column: 1;
+    margin: auto;
     margin-bottom: 3.9vh;
+    max-width: 692px;
+}
+
+.firaname {
+    font-family: 'IBM Plex mono', monospace;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 3.9vh;
+    max-width: 692px;
+}
+
+.Fira {
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.paragraph5 {
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 3.9vh;
+    max-width: 692px;
+}
+
+.Source-code-pro-name {
+    font-family: 'IBM Plex mono', monospace;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 3.9vh;
+    max-width: 692px;
+}
+
+.Source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
+    max-width: 692px;
+}
+
+.paragraph6 {
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 3.9vh;
+    max-width: 692px;
+}
+
+.ubuntu-name {
+    font-family: 'IBM Plex mono', monospace;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 3.9vh;
+    max-width: 692px;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    grid-column: 1;
+    margin: auto;
+    margin-bottom: 7vh;
     max-width: 692px;
 }
 
@@ -498,9 +599,99 @@ a.chap4:hover {
     }
     
     .paragraph3 {
+        margin: 0 auto;
+        margin-bottom: 6.16vh;
+        max-width: 692px;
+    }
+
+    .header2 {
         grid-column: 1;
         margin: auto;
-        margin-bottom: 8.3vh;
+        margin-bottom: 7vh;
+        max-width: 692px;
+    }
+    
+    .paragraph4 {
+        margin: 0 auto;
+        margin-bottom: 6.16vh;
+        max-width: 692px;
+    }
+    
+    .paragraph4-2 {
+        margin: 0 auto;
+        margin-bottom: 6.16vh;
+        max-width: 692px;
+    }
+    
+    .firaname {
+        font-family: 'IBM Plex mono', monospace;
+        font-weight: 700;
+        font-size: 24px;
+        margin: auto;
+        margin-bottom: 4.26vh;
+        max-width: 692px;
+    }
+    
+    .Fira {
+        font-family: 'Fira Code', monospace;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        grid-column: 1;
+        margin: auto;
+        margin-bottom: 7vh;
+        max-width: 692px;
+    }
+    
+    .paragraph5 {
+        margin: 0 auto;
+        margin-bottom: 6.16vh;
+        max-width: 692px;
+    }
+    
+    .Source-code-pro-name {
+        font-family: 'IBM Plex mono', monospace;
+        font-weight: 700;
+        font-size: 24px;
+        margin: auto;
+        margin-bottom: 4.26vh;
+        max-width: 692px;
+    }
+    
+    .Source-code-pro {
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        grid-column: 1;
+        margin: auto;
+        margin-bottom: 7vh;
+        max-width: 692px;
+    }
+    
+    .paragraph6 {
+        margin: 0 auto;
+        margin-bottom: 6.16vh;
+        max-width: 692px;
+    }
+    
+    .ubuntu-name {
+        font-family: 'IBM Plex mono', monospace;
+        font-weight: 700;
+        font-size: 24px;
+        margin: auto;
+        margin-bottom: 4.26vh;
+        max-width: 692px;
+    }
+    
+    .ubuntu {
+        font-family: 'Ubuntu Mono', monospace;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        grid-column: 1;
+        margin: auto;
+        margin-bottom: 7vh;
         max-width: 692px;
     }
 
