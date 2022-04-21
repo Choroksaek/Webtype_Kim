@@ -109,7 +109,7 @@ main{
   font-family: 'Downpour';
   color: rgba(255, 255, 255, 0.7);
   font-variation-settings: 'wght' 2;
-  font-size: 96px;
+  font-size: 7vw;
   line-height: 1.2;
   margin: -2px;
   transition: font-variation-settings .2s ease-in, color .2s ease-in;
@@ -129,7 +129,7 @@ main{
     max-width: 100vw;
     padding: 25px;
     margin: auto;
-    margin-bottom: 3  0vh;  
+    margin-bottom: 30vh;
     text-align: center;
 }
  
@@ -138,7 +138,7 @@ main{
   font-family: 'Downpour';
   color: rgba(255, 255, 255, 0.7);
   font-variation-settings: 'wght' 2;
-  font-size: 72px;
+  font-size: 5vw;
   line-height: 1.2;
   margin: auto;
   padding: 20px;
@@ -149,8 +149,8 @@ main{
   font-family: 'Downpour';
   color: rgba(255, 255, 255, 0.7);
   font-variation-settings: 'wght' 100;
-  font-size: 62px;
-  line-height: 1.1;
+  font-size: 4.34vw;
+  line-height: 1.2;
   margin: auto;
   padding: 20px;
 }
@@ -164,7 +164,16 @@ main{
   color: rgba(255, 255, 255, 0.3);
   line-height: 1.5;
 }
-
+.wght2caphidden {
+  display: none;
+  grid-column: 1;
+  font-family: synthese, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+}
 .wght100cap {
   grid-column: 2;
   font-family: synthese, sans-serif;
@@ -187,9 +196,8 @@ main{
 
 .fourth {
   text-align: center;
-  max-width: 60vw;
+  max-width: 80vw;
   margin: auto;
-  margin-bottom: 20vh;  
   margin-top: 10vh;
   font-family: 'Downpour';
   color: rgba(255, 255, 255, 0.7);
@@ -202,6 +210,55 @@ main{
   font-size: 60px;
 }
 
+.slider-container {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
+
+.slidertitle {
+  text-align: center;
+  font-family: synthese, sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  padding: 12px;
+  letter-spacing: 2px;
+}
+
+.slider {
+  max-width: 400px;
+  padding: 10px;
+  -webkit-appearance:none;
+  width: 100%;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255);
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: url('../smaller/Raining-Icon_0023_1.png') 26 22, auto;
+  outline: none;
+  border-radius: 16px;
+	transition: opacity .2s;
+}
+
+.slider:hover {
+	opacity: 0.7;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 26px; 
+  height: 26px; 
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  cursor: url('../smaller/Raining-Icon_0023_1.png') 26 22, auto;
+  border-radius: 40%; /* Cursor on hover */
+}
 /*
 
 .wrapper {
@@ -339,5 +396,169 @@ main{
   }
   100% {
     cursor: url(../smaller/Raining-Icon_0023_1.png) 26 22, auto;
+  }
+}
+
+@media only screen and (max-width: 812px) {
+  .animation{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+  .first{
+    margin-bottom: 5vh;
+    line-height: 0;
+    grid-template-columns: 1fr;
+    display:grid;
+    max-width: 100vw;
+  }
+  .txtone{
+    font-size: 10vh;
+    line-height: 1.1;
+    font-variation-settings: 'wght' 100;
+    text-align: center;
+    grid-column: 1;
+    margin: auto;
+    padding: 25px;
+  }
+  .txttwo{
+    display: flex;
+    line-height: 1.5;
+    margin: auto;
+    padding: 0px;
+  }
+  .A{
+    grid-column: 1;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 15vh;
+    padding: 0;
+    font-family: 'Downpour';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20vh;
+    --wght-axis: 2;
+    font-variation-settings: 'wght' var(--wght-axis);
+    animation: cycle 5s infinite ease-in-out;
+  }
+  .second{
+    margin: auto;
+    margin-bottom: 10vh;  
+    margin-top: 20vh;
+  }
+  .quote {
+    display: inline;
+    font-size: 7vw;
+    margin: -2px;
+  }
+  .third {
+    grid-template-columns: 1fr;
+    display:grid;
+    max-width: 100vw;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 10vh;  
+    text-align: center;
+  }
+  .wght2cap {
+    display:none;
+  }
+  .wght2caphidden {
+    display: inline;
+    font-size: 14px;
+  }
+  .wght100cap {
+    grid-column: 1;
+    font-size: 14px;
+  }
+  .wght2 {
+    grid-column: 1;
+    font-family: 'Downpour';
+    color: rgba(255, 255, 255, 0.7);
+    font-variation-settings: 'wght' 2;
+    font-size: 8vw;
+    line-height: 1.2;
+    margin: auto;
+    padding: 20px;
+  }
+  .wght100 {
+    grid-column: 1;
+    font-family: 'Downpour';
+    color: rgba(255, 255, 255, 0.7);
+    font-variation-settings: 'wght' 100;
+    font-size: 7vw;
+    line-height: 1.2;
+    margin: auto;
+    padding: 20px;
+  }
+  .secbreak {
+    max-width: 80%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 10vh;
+  }
+  .fourth {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 4vh;
+    font-family: 'Downpour';
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.2;
+  }
+
+  #font {
+    font-size: 4vh;
+  }
+  
+  .slider-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+  }
+  
+  .slidertitle {
+    text-align: center;
+    font-family: synthese, sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    padding: 12px;
+    letter-spacing: 2px;
+  }
+  
+  .slider {
+    max-width: 50vw;
+    padding: 10px;
+    -webkit-appearance:none;
+    width: 100%;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255);
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: url('../smaller/Raining-Icon_0023_1.png') 26 22, auto;
+    outline: none;
+    border-radius: 16px;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 0.7;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 26px; 
+    height: 26px; 
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    cursor: url('../smaller/Raining-Icon_0023_1.png') 26 22, auto;
+    border-radius: 40%; /* Cursor on hover */
   }
 }

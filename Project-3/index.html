@@ -91,6 +91,9 @@ crossorigin="anonymous"></script>
         <div class="wght2">
             A font that can blend into the rain.
         </div>
+        <div class="wght2caphidden">
+            heaviness 2
+        </div>
         <div class="wght100">
             A font that can blend into the rain.
         </div>
@@ -105,14 +108,14 @@ crossorigin="anonymous"></script>
     <div class="secbreak">
         Try the font yourself. You can change the weight by moving the slider.
     </div>
-
+    
     <div class="fourth">
-        <div id="font" contenteditable>The quick brown fox jumps over the lazy dog.</div>
+        <div id="font" contenteditable>The quick brown fox jumps<br> over the lazy dog.</div>
     </div>
     
-    <div class="field">
-        <label for="volume">width</label>
-        <input type="range" id="wght" name="wght"
+     <div class="slider-container">
+         <div class="slidertitle">HEAVINESS</div>
+        <input type="range" id="wght" name="wght" class="slider"
              min="2" max="100" value="2">
     </div>
 
@@ -121,9 +124,7 @@ crossorigin="anonymous"></script>
 
 <script src="js/lottie.min.js"></script>
 <script src="js/script.js"></script>
-<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src="js/custom.js"></script>
 <script src="js/rain.js"></script>
-
 </body>
 </html>
