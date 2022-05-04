@@ -1,0 +1,162 @@
+/* font faces! */
+
+@font-face {
+    font-family: 'Satoshi';
+    src:url('../font/Satoshi-Medium.ttf') format("truetype"),
+    url('../font/Satoshi-Medium.woff') format('woff'),
+    url('../font/Satoshi-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src:url('../font/Satoshi-Regular.ttf') format("truetype"),
+    url('../font/Satoshi-Regular.woff') format('woff'),
+    url('../font/Satoshi-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+/* inside */
+
+body {
+    background: #EFE9DE;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 12.5vh;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    -webkit-overflow-scrolling: touch;
+    background: #E2DCD2;
+    height: 420px;
+    margin: 0 0 7vh 17vw;
+    padding-left: 118px;
+    padding-top: 82px;
+
+}
+.cards{
+    width: 95%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.txt {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #714E3E;
+    padding-bottom: 10px;
+}
+
+.line {
+    width: 95%;
+    height: 0px;
+    left: 373px;
+    top: 348px;
+
+    border: .5px solid #714E3E;
+    margin-bottom:24px;
+}
+
+.card {
+
+    padding-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height:250px;
+    background: #EFE9DE;
+    margin-right: 12px;
+
+    font-family: Satoshi, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #403C39;
+}
+
+/* inside card */
+
+.label {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    line-height: 80px;
+    letter-spacing: 3px;
+}
+
+
+.block {
+    display: inline-block;
+    width: 5vw;
+    background: #E2DCD2;
+}
+
+.slider-container {
+    margin: 0 0 15vh 25vw;
+    display: flex;
+}
+
+/* NOT BEING USED
+
+.slider {
+    max-width: 576px;
+    -webkit-appearance:none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    border: none;
+    background-color: #959089;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    background: #403C39;
+    cursor: pointer;
+}
+
+*/
+
+.txt2 {
+    max-width: 330px;
+    margin-top: -20px;
+    margin-left: 9vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #535353;
+}
+
+
+/* type settings */
+
+h1 {
+    font-family: Satoshi, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 72px;
+    line-height: .5;
+}
+
+h2 {
+    font-family: Satoshi, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: .5;
+    color: #403C39;
+}

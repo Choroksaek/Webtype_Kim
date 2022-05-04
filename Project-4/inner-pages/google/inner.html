@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<head>
+    <title>api</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
+</head>
+
+<body>
+    <main>
+        <!--Column 1-->
+        <div class="column">
+            <h3 class="olddate">1998-12-02 .Google</h3>
+            <iframe class="oldwebsite" src="https://web.archive.org/web/19981202230410/http://www.google.com/" allowfullscreen></iframe>
+        </div>
+        
+        <!--Column 2-->
+        <div class="column">
+            <h3 class="today">
+                <script>
+                    date = new Date().toISOString().split("T")[0];
+                    document.write(date).replaceAll("/", "-");
+                </script>
+                .Google
+            </h3>
+            <iframe class="newwebsite" src="https://www.google.com/webhp?igu=1" allowfullscreen></iframe>
+            <div class="txt">It has already been 12 years and 5 months since the first version of Instagram website was published. </div>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
