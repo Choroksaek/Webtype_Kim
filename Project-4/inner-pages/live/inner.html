@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <head>
-    <title>google</title>
+    <title>Live</title>
     <link rel="stylesheet" href="../style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -17,8 +17,10 @@
     <main>
         <!--Column 1-->
         <div class="column">
-            <h3 class="olddate">1998-12-02 .Google</h3>
-            <iframe class="oldwebsite" src="https://web.archive.org/web/19981202230410/http://www.google.com/" allowfullscreen></iframe>
+            <h3 class="olddate">2006-04-21 .Live</h3>
+            <div class="iframe-container">
+                <iframe id="iframe" class="oldwebsite" src="https://web.archive.org/web/20060421164835/http://www.live.com/" allowfullscreen></iframe>
+            </div>
         </div>
 
         <!--Column 2-->
@@ -31,14 +33,16 @@
                     date = new Date().toISOString().split("T")[0];
                     document.write(date).replaceAll("/", "-");
                 </script>
-                .Google
+                .Live
             </h3>
-            <iframe class="newwebsite" src="https://www.google.com/webhp?igu=1" allowfullscreen></iframe>
+            <div class="iframe-container">
+                <iframe id="iframe" class="newwebsite" src="https://web.archive.org/web/20220506051319/https://outlook.live.com/owa/" allowfullscreen></iframe>
+            </div>
             <div class="txt">It has already been 
                 <script>
-                document.write(monthDiff(new Date(1998, 12), new Date()));
+                document.write(monthDiff(new Date(2006, 04), new Date()));
                 </script>
-                 months since the oldest version of Google website we can find was published. </div>
+                months since the first version of Microsoft Live website was published.</div>
         </div>
     </main>
 </body>

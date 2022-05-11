@@ -40,20 +40,25 @@ h3{
     font-size: 18px;
     color: #714E3E; */
     margin-bottom: 4px;
+
+}
+
+.iframe-container {
+    position: relative;
 }
 
 .oldwebsite {
-    /* grid-column: 1; */
     border-style: none;
     height: 70vh;
     width: 100%;
+    background:url("../goingpast.gif") center center no-repeat; 
 }
 
 .newwebsite {
-    /* grid-column: 2; */
     border-style: none;
     height: 70vh;
     width: 100%;
+    background:url("../goingpresent.gif") center center no-repeat; 
 }
 
 .txt {
@@ -64,6 +69,17 @@ h3{
     font-size: 18px;
     color: #535353;
     line-height: 1.4;
-    max-width: 80%;
+    max-width: 90%;
     margin-top: 15px;
+}
+
+.exit {
+    position: absolute;
+    margin-left: 37%;
+}
+
+.nobgclr {
+    border-style: none;
+    height: 70vh;
+    width: 100%;
 }
