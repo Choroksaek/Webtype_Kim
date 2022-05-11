@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <head>
-    <title>Baidu</title>
+    <title>Instagram</title>
     <link rel="stylesheet" href="../style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -17,9 +17,11 @@
     <main>
         <!--Column 1-->
         <div class="column">
-            <h3 class="olddate">2000-06-06 .Baidu</h3>
+            <h3 class="olddate">2011-03-11 .Instagram</h3>
             <div class="iframe-container">
-                <iframe id="iframe" class="oldwebsite" src="https://web.archive.org/web/20000606160410/http://www.baidu.com/" allowfullscreen></iframe>
+                <div class="oldwebsite">
+                    <iframe id="iframe" class="nobgclr" src="https://web.archive.org/web/20110311073313/https://www.instagram.com/" allowfullscreen style="background-color: #fff;"></iframe>
+                </div>
             </div>
         </div>
 
@@ -33,16 +35,16 @@
                     date = new Date().toISOString().split("T")[0];
                     document.write(date).replaceAll("/", "-");
                 </script>
-                .Baidu
+                .Instagram
             </h3>
             <div class="iframe-container">
-                <iframe id="iframe" class="newwebsite" src="https://web.archive.org/web/20220511075608/https://www.baidu.com/" allowfullscreen></iframe>
+                <iframe id="iframe" class="newwebsite" src="https://web.archive.org/web/20220508002446/https://www.instagram.com/" allowfullscreen></iframe>
             </div>
             <div class="txt">It has already been 
                 <script>
-                document.write(monthDiff(new Date(2000, 06), new Date()));
+                document.write(monthDiff(new Date(2011, 03), new Date()));
                 </script>
-                months since the first version of Baidu website was published.</div>
+                months since the first version of Instagram website was published.</div>
         </div>
     </main>
 </body>
