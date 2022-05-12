@@ -39,8 +39,8 @@ body {
     margin: 0 0 7vh 17vw;
     padding-left: 118px;
     padding-top: 82px;
-
 }
+
 .cards{
     width: 95%;
     overflow-x: scroll;
@@ -133,11 +133,11 @@ body {
 .txt2 {
     max-width: 330px;
     margin-top: -20px;
-    margin-left: 9vw;
+    margin-left: 40vw;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.3;
     color: #535353;
 }
 
@@ -159,4 +159,63 @@ h2 {
     font-size: 16px;
     line-height: .5;
     color: #403C39;
+}
+
+@media only screen and (max-width: 812px) {
+
+    .header {
+        margin-top: 12.5vh;
+        margin-left: 12px;
+        margin-bottom: 0;
+    }
+
+    .wrapper {
+        -webkit-overflow-scrolling: touch;
+        background: #E2DCD2;
+        height: 420px;
+        margin: auto;
+        padding-left: 4vw;
+        padding-top: 4vh;
+    }
+    
+    .txt2 {
+        max-width: 100%;
+        margin-top: 3vh;
+        margin-left: 9vw;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #535353;
+    }
+
+    .slider-container {
+        margin: auto;
+        display: flex;
+    }
+
+    .txt {
+        max-width: 90%;
+    }
+
+    /* type settings */
+
+    h1 {
+        font-family: Satoshi, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 8vw;
+        line-height: .5;
+    }
+
+    h2 {
+        font-family: Satoshi, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: .5;
+        color: #403C39;
+    }
+
+
 }

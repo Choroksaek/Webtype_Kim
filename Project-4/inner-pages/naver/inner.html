@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<head>
+    <title>Naver</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
+    <script src="../script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <!--Column 1-->
+        <div class="column">
+            <h3 class="olddate">1998-12-12 .Naver</h3>
+            <div class="iframe-container">
+                <iframe id="iframe" class="oldwebsite" src="https://web.archive.org/web/19981212015838/http://naver.com/" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!--Column 2-->
+        <div class="column">
+            <a class= "exit" href="../../index.html">
+                <img src="../../xicon.svg" alt="" />
+            </a>
+            <h3 class="today">
+                <script>
+                    date = new Date().toISOString().split("T")[0];
+                    document.write(date).replaceAll("/", "-");
+                </script>
+                .Naver
+            </h3>
+            <div class="iframe-container">
+                <div class="newwebsite">
+                <iframe id="iframe" class="nobgclr" src="https://web.archive.org/web/20220507062817/https://www.naver.com/" allowfullscreen style="background-color: #fff;"></iframe>
+            </div>
+            </div>
+            <div class="txt">It has already been 
+                <script>
+                document.write(monthDiff(new Date(1998, 12), new Date()));
+                </script>
+                months since the first version of Naver website was published.</div>
+        </div>
+    </main>
+</body>

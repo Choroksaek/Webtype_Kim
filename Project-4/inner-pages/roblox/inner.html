@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<head>
+    <title>Roblox</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
+    <script src="../script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <!--Column 1-->
+        <div class="column">
+            <h3 class="olddate">2005-06-24 .Roblox</h3>
+            <div class="iframe-container">
+                <div class="oldwebsite">
+                <iframe id="iframe" class="nobgclr" src="https://web.archive.org/web/20050624075917/http://www.roblox.com/" allowfullscreen style="background-color: #fff;"></iframe>
+            </div>
+            </div>
+        </div>
+
+        <!--Column 2-->
+        <div class="column">
+            <a class= "exit" href="../../index.html">
+                <img src="../../xicon.svg" alt="" />
+            </a>
+            <h3 class="today">
+                <script>
+                    date = new Date().toISOString().split("T")[0];
+                    document.write(date).replaceAll("/", "-");
+                </script>
+                .Roblox
+            </h3>
+            <div class="iframe-container">
+                <iframe id="iframe" class="newwebsite" src="https://web.archive.org/web/20220512024915/https://www.roblox.com/" allowfullscreen></iframe>
+            </div>
+            <div class="txt">It has already been 
+                <script>
+                document.write(monthDiff(new Date(2005, 06), new Date()));
+                </script>
+                months since the first version of Roblox website was published.</div>
+        </div>
+    </main>
+</body>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<head>
+    <title>Twitch</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
+    <script src="../script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <!--Column 1-->
+        <div class="column">
+            <h3 class="olddate">2011-07-10 .Twitch</h3>
+            <div class="iframe-container">
+                <div class="oldwebsite">
+                <iframe id="iframe" class="nobgclr" src="https://web.archive.org/web/20110710070313/http://www.twitch.tv/" allowfullscreen style="background-color: #fff;"></iframe>
+            </div>
+            </div>
+        </div>
+
+        <!--Column 2-->
+        <div class="column">
+            <a class= "exit" href="../../index.html">
+                <img src="../../xicon.svg" alt="" />
+            </a>
+            <h3 class="today">
+                <script>
+                    date = new Date().toISOString().split("T")[0];
+                    document.write(date).replaceAll("/", "-");
+                </script>
+                .Twitch
+            </h3>
+            <div class="iframe-container">
+                <iframe id="iframe" class="newwebsite" src="https://web.archive.org/web/20220511011422/https://www.twitch.tv/" allowfullscreen></iframe>
+            </div>
+            <div class="txt">It has already been 
+                <script>
+                document.write(monthDiff(new Date(2011, 07), new Date()));
+                </script>
+                months since the first version of Twitch.tv website was published.</div>
+        </div>
+    </main>
+</body>

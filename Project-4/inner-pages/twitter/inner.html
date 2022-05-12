@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<head>
+    <title>Twitter</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
+    <script src="../script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <!--Column 1-->
+        <div class="column">
+            <h3 class="olddate">2006-09-30 .Twitter</h3>
+            <div class="iframe-container">
+                <iframe id="iframe" class="oldwebsite" src="https://web.archive.org/web/20060930214639/http://twitter.com/" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!--Column 2-->
+        <div class="column">
+            <a class= "exit" href="../../index.html">
+                <img src="../../xicon.svg" alt="" />
+            </a>
+            <h3 class="today">
+                <script>
+                    date = new Date().toISOString().split("T")[0];
+                    document.write(date).replaceAll("/", "-");
+                </script>
+                .Twitter
+            </h3>
+            <div class="iframe-container">
+                <iframe id="iframe" class="newwebsite" src="https://web.archive.org/web/20220507000858/https://twitter.com/" allowfullscreen></iframe>
+            </div>
+            <div class="txt">It has already been 
+                <script>
+                document.write(monthDiff(new Date(2006, 09), new Date()));
+                </script>
+                months since the first version of Twitter website was published.</div>
+        </div>
+    </main>
+</body>
