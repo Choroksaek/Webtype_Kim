@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Downpour';
+  src:url('../../fonts/RaindropsVF.woff2') format("woff2-variations"),
+  url('../../fonts/RaindropsVF.woff') format('woff-variations'),
+  url('../../fonts/RaindropsVF.ttf') format('truetype-variations');
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    /* overflow: scroll; */
+  }
+  
+main{
+  position: fixed;
+  top:0;
+  left:0;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.second{
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 20vh;  
+    margin-top: 20vh;
+}
+
+.quote {
+	display: inline;
+  font-family: 'Downpour';
+  color: rgba(0, 0, 0, 1);
+  font-variation-settings: 'wght' 2;
+  font-size: 10vw;
+  line-height: 1.2;
+  margin: -2px;
+  transition: font-variation-settings .2s ease-in;
+}
+
+.quote:hover {
+	--wdth-axis: 100;
+  font-variation-settings: 'wght' 100;
+	transition: font-variation-settings .2s ease-in,
+	background-color .2s ease-in;
+	}

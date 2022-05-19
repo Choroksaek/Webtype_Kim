@@ -1,0 +1,47 @@
+.container {
+width: 100vw;
+height: 100vh;
+}
+
+img {
+	width: 60%;
+}
+
+body {
+	font-size: 20px;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
+    line-height: 1.4;
+    max-width: 60%;
+}
+
+footer {
+	border-top: solid;
+	padding: 50px;
+	margin: 50px;
+}
+
+@media only screen and (max-width: 812px) {
+	img {
+		width: 100%;
+		margin: auto;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	body {
+		margin: auto;
+	}
+
+}

@@ -1,0 +1,28 @@
+ @font-face {
+    font-family: 'baunk';
+    font-weight: bold;
+    src: url('Baunk.ttf') format('ttf');
+  }
+ 
+ 
+  body {
+	padding: 0;
+	margin: 0;
+   background: rgb(26, 26, 26);
+}
+
+#infos {
+   font-family: 'baunk';
+	height: 100vh;
+   font-size: 24px;
+	text-align: left;
+	color: white;
+   line-height: 1.5;
+	margin: 5vh 7vw;
+	padding: 0;
+}
+
+#location {
+   font-size: 80px;
+   margin-left: -5vw;
+}

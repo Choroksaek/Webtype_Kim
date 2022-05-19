@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Downpour';
-    src:url('../fonts/RaindropsVF.woff2') format("woff2-variations"),
-    url('../fonts/RaindropsVF.woff') format('woff-variations'),
-    url('../fonts/RaindropsVF.ttf') format('truetype-variations');
+    src:url('../../fonts/RaindropsVF.woff2') format("woff2-variations"),
+    url('../../fonts/RaindropsVF.woff') format('woff-variations'),
+    url('../../fonts/RaindropsVF.ttf') format('truetype-variations');
 }
 
 *{

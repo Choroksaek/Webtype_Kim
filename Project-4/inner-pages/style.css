@@ -51,14 +51,14 @@ h3{
     border-style: none;
     height: 70vh;
     width: 100%;
-    background:url("../goingpast.gif") center center no-repeat; 
+    background:url("../book-goingb4.gif") center center no-repeat; 
 }
 
 .newwebsite {
     border-style: none;
     height: 70vh;
     width: 100%;
-    background:url("../goingpresent.gif") center center no-repeat; 
+    background:url("../book-goingpresent.gif") center center no-repeat; 
 }
 
 .txt {
@@ -104,7 +104,7 @@ h3{
 
     .txt {
         /* grid-column: 1; */
-        margin-bottom: 6vh;
+        margin-bottom: 6vh; 
     }
 
 }
